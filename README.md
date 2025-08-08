@@ -1,5 +1,5 @@
-
-                                                                  # Comparación de eficiencia de algoritmos
+Yeimy Estefania Beltrán Sandoval
+# Comparación de eficiencia de algoritmos
 
 # Propósito de la tarea: 
 La idea central de esta tarea es comprender cómo la forma en que se implementa un algoritmo puede influir en su eficiencia. A través de la comparación entre una solución recursiva y otra iterativa para calcular factoriales. Para esto hice implementaciones en Python y en C, más allá de que ambas lleguen al mismo resultado, lo que me interesaba era medir y comparar qué tan rápido funcionan y cuánta memoria consumen. 
