@@ -34,18 +34,11 @@ En general, la función iterativa fue más rápida que la recursiva, sobre todo 
 Como se muestra en la imagen
 Python: 
 ![Grafica 1. Tiempo en Python](Graficas/tiempoPython.jpg)
+
 C:
 ![Grafica 2. Tiempo en C](Graficas/grafica_tiempos.png)
-3. Uso de memoria
-La versión recursiva consumió más memoria, porque cada llamada crea su propio espacio en la pila de ejecución (stack).
 
-La iterativa, en cambio, solo usa un bucle que reutiliza las mismas variables.
+2. Uso de memoria
+La versión recursiva consumió más memoria, porque cada llamada crea su propio espacio en la pila de ejecución (stack). La iterativa, en cambio, solo usa un bucle que reutiliza las mismas variables.
+En este caso, la diferencia fue evidente porque en el código se forzó un consumo extra de memoria en ambas funciones, lo que permitió medirlo observando un poco mejor.
 
-En este caso, la diferencia fue evidente porque en el código se forzó un consumo extra de memoria en ambas funciones, lo que permitió medirlo fácilmente.
-
-3. Gráficas y visualización
-Tiempo vs. n: La curva de la recursiva creció más rápido que la iterativa.
-
-Memoria vs. n: La recursiva mostró un aumento más notable, mientras que la iterativa se mantuvo más estable.
-
-Estas gráficas hacen más fácil ver por qué, en la práctica, un algoritmo iterativo puede ser más eficiente para cálculos de factorial con números grandes.
