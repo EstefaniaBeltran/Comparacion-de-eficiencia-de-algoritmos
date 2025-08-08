@@ -35,7 +35,7 @@ Como se muestra en la imagen
 Python: 
 ![Grafica 1. Tiempo en Python](Graficas/tiempoPython.jpg)
 C:
-
+![Grafica 2. Tiempo en C](Graficas/grafica_tiempos.png)
 3. Uso de memoria
 La versión recursiva consumió más memoria, porque cada llamada crea su propio espacio en la pila de ejecución (stack).
 
