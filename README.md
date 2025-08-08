@@ -58,6 +58,14 @@ La versión recursiva consumió más memoria, porque cada llamada crea su propio
 
 En este caso, la diferencia fue evidente porque en el código se forzó un consumo extra de memoria en ambas funciones, lo que permitió medirlo observando un poco mejor.
 
+Python:
+
+![Grafica 3. Memoria en Pytho](Graficas/MEMORIA_PYTHON.png)
+
+C:
+![Grafica 4. Memoria en C](Graficas/memoria_comparacion.png)
+
+
 3. Conclusión
 
 Con ejercicio pude observar que aunque dos algoritmos hagan lo mismo, no siempre son igual de eficientes. La elección entre recursividad e iteración depende del contexto:
@@ -65,12 +73,3 @@ Con ejercicio pude observar que aunque dos algoritmos hagan lo mismo, no siempre
 - Si quiero priorizar la claridad y la simplicidad de código, debo usar la recursiva.
 
 - Si nesesito priorizar velocidad y bajo consumo de memoria, debo usar la iteración.
-
-
-
-Python:
-
-![Grafica 3. Memoria en Pytho](Graficas/MEMORIA_PYTHON.png)
-
-C:
-![Grafica 4. Memoria en C](Graficas/memoria_comparacion.png)
