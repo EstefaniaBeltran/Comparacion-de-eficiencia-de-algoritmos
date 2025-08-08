@@ -6,12 +6,12 @@ La idea central de esta tarea es comprender cómo la forma en que se implementa 
 
 # Implementación de las funciones
 
- - Función Recursiva
+ - Función Recursiva.
    
    La función recursiva se basa en que un factorial n se puede calcular como n * factorial(n-1), y que cuando n llega a 1 (o 0), el resultado es 1.
 En mis códigos, además de hacer esta llamada recursiva, añadí una asignación de memoria extra (creando un arreglo temporal) para que el consumo de memoria fuera más visible al momento de medirlo.
 
-- Función iterativa
+- Función iterativa.
   La versión iterativa usa un bucle para multiplicar los números desde 1 hasta n, guardando el resultado en una variable. Igual que en la recursiva, incluí una reserva de memoria temporal para poder registrar su consumo de manera mas visible.
 
 # Métodos usados para medir el tiempo de ejecución y la memoria.
