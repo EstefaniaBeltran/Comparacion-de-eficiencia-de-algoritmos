@@ -42,3 +42,5 @@ C:
 La versión recursiva consumió más memoria, porque cada llamada crea su propio espacio en la pila de ejecución (stack). La iterativa, en cambio, solo usa un bucle que reutiliza las mismas variables.
 En este caso, la diferencia fue evidente porque en el código se forzó un consumo extra de memoria en ambas funciones, lo que permitió medirlo observando un poco mejor.
 
+Python:
+![Grafica 3. Memoria en Pytho](Graficas/grafica_tiempos.png)
