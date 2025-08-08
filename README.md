@@ -29,12 +29,12 @@ Utilicé la función getrusage() (de <sys/resource.h>) para obtener el máximo d
 
 # Resumen de hallazgos y comparaciones gráficas.
 1. Tiempo de ejecución
-En general, la función iterativa fue más rápida que la recursiva, sobre todo cuando n fue grande
-Esto se debe a que la recursión implica muchas llamadas a funciones, y cada llamada añade una pequeña sobrecarga de tiempo.
-En valores pequeños de n, la diferencia es mínima, pero conforme crece n la iterativa mantiene tiempos más bajos.
-Como se muestra en la imagen
-![Grafica 1. Tiempo en Python](Graficas/tiempoPython.jpg)
+En general, la función iterativa fue más rápida que la recursiva, sobre todo cuando n fue grande. Esto se debe a que la recursión implica muchas llamadas a funciones, y cada llamada añade una pequeña sobrecarga de tiempo.
 
+Como se muestra en la imagen
+Python: 
+![Grafica 1. Tiempo en Python](Graficas/tiempoPython.jpg)
+C:
 
 3. Uso de memoria
 La versión recursiva consumió más memoria, porque cada llamada crea su propio espacio en la pila de ejecución (stack).
