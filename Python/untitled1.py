@@ -1,5 +1,6 @@
 
-!pip install memory_profiler matplotlib
+import os
+os.system("pip install memory_profiler matplotlib")
 import time
 from memory_profiler import memory_usage
 import matplotlib.pyplot as plt
