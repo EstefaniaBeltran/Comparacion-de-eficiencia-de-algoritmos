@@ -73,3 +73,9 @@ Con ejercicio pude observar que aunque dos algoritmos hagan lo mismo, no siempre
 - Si quiero priorizar la claridad y la simplicidad de código, debo usar la recursiva.
 
 - Si nesesito priorizar velocidad y bajo consumo de memoria, debo usar la iteración.
+
+# Recomendaciones previas para ejecutar los programas 
+
+- Antes de ejecutar el programa, asegúrate de tener instaladas la siguiente librería de Python:
+
+!pip install memory_profiler matplotlib
